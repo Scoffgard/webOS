@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Google",
+        "id": "google.com",
+        "dirname": "google.com",
+        "mainPage": "index.html",
+        "alias": ["google.fr", "www.google.com", "www.google.fr"]
+    }, 
+    {
+        "name": "Centrale LSPD",
+        "id": "centrale.lspd.com",
+        "dirname": "lspd.com/centrale",
+        "mainPage": "index.html",
+        "alias": ["lspd.com/centrale", "www.lspd.com/centrale"]
+    }
+]

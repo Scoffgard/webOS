@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Firefox",
+        "id": "firefox",
+        "dirname": "browser",
+        "icon": "./assets/firefox.svg",
+        "mainPage": "index.html",
+        "options" : null
+    }
+]

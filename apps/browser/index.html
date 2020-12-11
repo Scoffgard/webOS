@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Web browser</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="tabs">
+            <span id="tab0" class="" onclick="switchTab(0)" >
+                <div id="toclick" onclick="switchTab(0)" ><p>Nouvel onglet</p></div>
+            </span>
+            <img src="./assets/add-24px.svg" onclick="newTab()" id="newtab" />
+        </div>
+        <div class="urlbar">
+            <input type="text" id="urlbar" placeholder="Tapez l'URL içi ..." onkeypress="handle(event)" />
+        </div>
+        <iframe id="viewer" src=""></iframe>
+
+        <script type="text/javascript" src="./browser.js"></script>
+    </body>
+</html>
